@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/stylecriar.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="cadastrar">
+    
+
+    <form action="action_page.php" style="border:1px solid #2d2d2d">
+        <div class="container">
+            <h1>Cadastro</h1>
+            <p>Complete com suas informações para criar uma nova conta</p>
+            <hr>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Insira seu email" name="email" required>
+
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Insira uma senha" name="psw" required>
+
+            <label for="psw-repeat"><b>Repetir senha</b></label>
+            <input type="password" placeholder="Repetir senha" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Lembrar da senha
+            </label>
+            <hr>
+                
+            </p>
+            <label>
+                <h3>Gênero:</h3>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Masculino
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Feminino
+                    </label>
+                </label>
+                <hr>
+                <p>
+            </label>
+            </p>
+
+            <form>
+                <label for="bdaymonth">Data de nascimento:</label>
+                <input type="date" id="bdaymonth" name="bdaymonth">
+            </form>
+            <hr>
+            <p>
+            <p></p>
+            </p>
+            <form>
+                <label for="phone">Número de celular:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </form><p></p>
+            <hr>
+
+            <p> Criando uma conta você concorda com nossos <a href="#" style="color:rgb(28, 28, 28)">Termos de Privacidade</a>.
+            </p>
+<hr>
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+
+</html>
